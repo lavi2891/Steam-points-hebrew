@@ -64,7 +64,7 @@ export default function App() {
     const status = await shareResult(
       shareText,
       window.location.href,
-      `הנק״ק שלי: ${score} נקודות קיטור`,
+      `הנק״ט שלי: ${score} נקודות קיטור`,
     );
 
     if (status === "copied" || status === "shared") {

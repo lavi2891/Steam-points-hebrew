@@ -14,7 +14,7 @@ export function buildShareText({ score, level, topTriggers, url }: SharePayload)
     : "הטריגרים שלי: עוד לא סימנתי כלום";
 
   return [
-    `הנק״ק שלי: ${score} נקודות קיטור`,
+    `הנק״ט שלי: ${score} נקודות קיטור`,
     `${level.title} ${renderStarRating(level.stars)}`,
     renderSteamIcons(level.stars),
     triggerLine,
